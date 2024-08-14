@@ -1,0 +1,327 @@
+{
+  "users": [
+    {
+      "name": "M Sakthi ",
+      "email": "msakthi@gmail.com",
+      "password": "P@ssw0rd",
+      "confirmPassword": "P@ssw0rd",
+      "termsAccepted": true,
+      "id": 1
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "Rohith@123",
+      "confirmPassword": "Rohith@123",
+      "termsAccepted": true,
+      "id": 2
+    },
+    {
+      "name": "ROHITH",
+      "email": "rohith@gmail.com",
+      "password": "Rohith@123",
+      "confirmPassword": "Rohith@123",
+      "termsAccepted": true,
+      "id": 3
+    },
+    {
+      "name": "Admin",
+      "email": "admin@elite.com",
+      "password": "P@ssw0rd",
+      "confirmPassword": "P@ssw0rd",
+      "termsAccepted": true,
+      "id": 4
+    },
+    {
+      "name": "fgh",
+      "email": "ghj@hj.com",
+      "password": "vbnhjmkjhghj",
+      "place": "h",
+      "date": "l",
+      "id": 5
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "trend": 1,
+      "name": "CES 2024",
+      "place": "New Delhi",
+      "date": "29/07/2025",
+      "organizer": "Kim Yoen",
+      "organization": "Samsung Electronics",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "image": "img/event/1.jpg",
+      "capacity": 100,
+      "small_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "location": "Maidan Crown Banquet Hall",
+      "type": "Launch Event",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card",
+        "Water"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ],
+      "inclusions": "Pickup from bus stand,Airport,Railway Station; Food and coffee; Letterpad and Pen; ID card; Water",
+      "exclusions": "No return to bus stand,Airport,Railway Station; Room for refreshment; Alchol"
+    },
+    {
+      "id": 2,
+      "trend": 1,
+      "name": "Book Fair 2024",
+      "place": "Coimbatore",
+      "date": "27/09/2024",
+      "organizer": "Jayakaran",
+      "organization": "Akash Publication",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "image": "img/event/2.webp",
+      "capacity": 100,
+      "small_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "location": "Codissia",
+      "type": "Trade Fair",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 3,
+      "trend": 1,
+      "name": "TN Investor Meeting",
+      "place": "Chennai",
+      "date": "29/09/2024",
+      "organizer": "Rishikesh",
+      "organization": "TN Finance Ministry",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "image": "img/event/3.jpeg",
+      "capacity": 100,
+      "small_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "location": "Maidan Crown Banquet Hall",
+      "type": "Investor Meeting",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 4,
+      "trend": 1,
+      "name": "Toyota Launch Event",
+      "place": "Mumbai",
+      "date": "28/06/2025",
+      "organizer": "Koji Soto",
+      "organization": "Toyota Automobiles",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "image": "img/event/4.jpg",
+      "capacity": 100,
+      "small_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "location": "The Palace Hall",
+      "type": "Launch Event",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 5,
+      "trend": 0,
+      "name": "National Advisory Meeting",
+      "place": "Lucknow",
+      "date": "24/09/2024",
+      "organizer": "Nirmala Seetharaman",
+      "organization": "Central Ministry of",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "image": "img/event/5.jpg",
+      "capacity": 100,
+      "small_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "location": "Maidan Crown Banquet Hall",
+      "type": "Investor Meeting",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 6,
+      "trend": 0,
+      "name": "TN Textile Industry Meeting",
+      "place": "Tirupur",
+      "date": "24/09/2024",
+      "organizer": "Sanjai K",
+      "organization": "Kanagayam Textiles",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "image": "img/event/6.webp",
+      "capacity": 100,
+      "small_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non elit ullamcorper tortor pellentesque auctor. Quisque scelerisque augue orci, ut posuere nulla accumsan vel. Morbi efficitur maximus imperdiet. Curabitur a.",
+      "location": "Lotus Hall",
+      "type": "Bussiness Meeting",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card",
+        "Tissue Paper"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "trend": 0,
+      "name": "fghjk",
+      "place": "hjkl",
+      "date": "05/05/2025",
+      "organizer": "ghjki",
+      "organization": "ghji",
+      "description": "ghjkio",
+      "image": "https://res.cloudinary.com/dfiyrqut1/image/upload/v1722321832/media/eventmanagement/images/zeruipeuxrf6me7g7z4l.jpg",
+      "capacity": "456",
+      "small_description": "hj",
+      "location": "45",
+      "type": "64",
+      "guest": "56",
+      "gmap": "",
+      "organization_details": "kolhjo",
+      "inclusive": [
+        "hjkl456y7u8i",
+        "rtyu",
+        "3456"
+      ],
+      "exclusive": [
+        "ghjk",
+        "aaaaaaaaa"
+      ],
+      "inclusions": "hjkl; rtyu; 3456",
+      "id": 8
+    },
+    {
+      "trend": 0,
+      "name": "ghy",
+      "place": "yu",
+      "date": "29/09/2025",
+      "organizer": "hj",
+      "organization": "45",
+      "description": "45",
+      "image": "https://res.cloudinary.com/dfiyrqut1/image/upload/v1722333870/media/eventmanagement/images/wfrv1qdnh06fyremxmj5.png",
+      "capacity": "5",
+      "small_description": "45",
+      "location": "45",
+      "type": "454",
+      "guest": "54",
+      "gmap": "",
+      "organization_details": "45",
+      "inclusive": [
+        "1",
+        "2"
+      ],
+      "exclusive": [
+        "6",
+        "7"
+      ],
+      "inclusions": "1; 2",
+      "id": 9,
+      "exclusions": "6; 7"
+    },
+    {
+      "trend": 0,
+      "name": "Sakthi M",
+      "place": "dfg",
+      "date": "dsfg",
+      "organizer": "sdfg",
+      "organization": "dsfg",
+      "description": "sdfgh dfgr",
+      "image": "https://res.cloudinary.com/dfiyrqut1/image/upload/v1722584669/media/eventmanagement/images/csw2oujbalknb0p2uyir.png",
+      "capacity": "10",
+      "small_description": "dsfgh sdfght",
+      "location": "sdafsgh",
+      "type": "dfsrgt",
+      "guest": "fgdhj",
+      "gmap": "",
+      "organization_details": "dsfdg",
+      "inclusive": [
+        "1",
+        "2"
+      ],
+      "exclusive": [
+        "3",
+        "4"
+      ],
+      "inclusions": "1; 2",
+      "exclusions": "3; 4",
+      "id": 10
+    }
+  ],
+  "contactus": [],
+  "event_register": [],
+  "upload": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    }
+  ]
+}

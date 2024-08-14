@@ -1,0 +1,106 @@
+.head-1
+{
+    margin-top: 25px;
+   text-align: center;
+}
+.event-100-1{
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.event-80-1{
+    width: 85%;
+    min-height: 50vh;
+    height: auto;
+    display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+column-gap: 15px;
+row-gap: 15px;
+justify-content: center;
+align-items: center;
+}
+
+.event-card-1
+{    background-color: #FCF8F3;
+
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.event-img-1
+{
+    width: 100%;
+    height: 50%;
+}
+.event-details-1
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event-detail-value-1
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.event-detail-value-1 span
+{
+    margin-left: 10px;
+}
+.event-title-1
+{
+    text-align: center;
+}
+
+.event-card-img-1{
+    object-fit: contain;
+
+
+}
+.home-img{
+
+
+}
+.home-img {
+    background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white; /* Change text color if needed */
+    text-align: center; /* Center text */
+    z-index: 1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a dark overlay */
+    z-index: 0;
+  }
+  
+  .home-img .content {
+    z-index: 1; /* Ensure text is above overlay */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background to text for better readability */
+    border-radius: 10px; /* Optional: Add border radius */
+  }
+  
