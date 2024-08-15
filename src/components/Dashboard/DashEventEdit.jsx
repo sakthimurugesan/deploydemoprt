@@ -33,7 +33,7 @@ const EventEdit = () => {
     if (id) {
       const fetchEvent = async () => {
         try {
-          const response = await axios.get(`http://51.20.31.249/events/${id}/`);
+          const response = await axios.get(`https://13.48.59.223/events/${id}/`);
           setEvent(response.data);
         } catch (error) {
           console.error('Error fetching event data:', error);
@@ -105,7 +105,7 @@ const EventEdit = () => {
         exclusions: combinedExclusions, // Use the combined string here
       };
 
-      await axios.put(`http://51.20.31.249/events/${id}/`, updatedEvent);
+      await axios.put(`https://13.48.59.223/events/${id}/`, updatedEvent);
       setTimeout(() => {
         toast.success('Event Edited successful!');
         
@@ -121,7 +121,7 @@ const EventEdit = () => {
   const handleDelete = async () => {
     setLoading(true); // Start loading
     try {
-      await axios.delete(`http://51.20.31.249/events/${id}/`);
+      await axios.delete(`https://13.48.59.223/events/${id}/`);
       setTimeout(() => {
         toast.error('Event Deleted successful!');
         

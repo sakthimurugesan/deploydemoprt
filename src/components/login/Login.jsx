@@ -36,7 +36,7 @@ const Login = () => {
     }
 
     try {
-      const response = await axios.get(`http://51.20.31.249/users?email=${email}`);
+      const response = await axios.get(`https://13.48.59.223/users?email=${email}`);
 
       if (response.data.length === 0) {
         toast.error("Email not found. Please register.");

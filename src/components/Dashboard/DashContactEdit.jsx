@@ -17,7 +17,7 @@ const DashContactEdit = () => {
   useEffect(() => {
     const fetchEvent = async () => {
       try {
-        const response = await axios.get(`http://51.20.31.249/contactus/${id}`);
+        const response = await axios.get(`https://13.48.59.223/contactus/${id}`);
         setEvent(response.data);
       } catch (error) {
         console.error('Error fetching event data:', error);
@@ -38,7 +38,7 @@ const DashContactEdit = () => {
 
   const handleSave = async () => {
     try {
-      await axios.put(`http://51.20.31.249/contactus/${id}/`, event);
+      await axios.put(`https://13.48.59.223/contactus/${id}/`, event);
       
       setTimeout(() => {
      toast.success('Message edited Successfuly !!!');
@@ -52,7 +52,7 @@ const DashContactEdit = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://51.20.31.249/contactus/${id}/`);
+      await axios.delete(`https://13.48.59.223/contactus/${id}/`);
       setTimeout(() => {
         toast.error('Message Deleted successful!');
         

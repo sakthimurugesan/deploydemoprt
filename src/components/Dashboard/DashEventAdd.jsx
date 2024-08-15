@@ -33,7 +33,7 @@ const DashEventAdd = () => {
     if (id) {
       const fetchEvent = async () => {
         try {
-          const response = await axios.get(`http://51.20.31.249/events/${id}/`);
+          const response = await axios.get(`https://13.48.59.223/events/${id}/`);
           setEvent(response.data);
         } catch (error) {
           console.error('Error fetching event data:', error);
@@ -119,7 +119,7 @@ const DashEventAdd = () => {
       console.log(updatedEvent);
 
       const method = id ? 'put' : 'post';
-      const url = id ? `http://51.20.31.249/events/${id}/` : 'http://51.20.31.249/events/';
+      const url = id ? `https://13.48.59.223/events/${id}/` : 'https://13.48.59.223/events/';
 
       await axios[method](url, updatedEvent);
       setTimeout(() => {
@@ -138,7 +138,7 @@ const DashEventAdd = () => {
     setLoading(true); // Start loading
     try {
       if (id) {
-        await axios.delete(`http://51.20.31.249/events/${id}/`);
+        await axios.delete(`https://13.48.59.223/events/${id}/`);
       }
       navigate('/dashboard/events');
     } catch (error) {

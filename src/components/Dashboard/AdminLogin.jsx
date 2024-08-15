@@ -37,7 +37,7 @@ const AdminLogin = () => {
         }
 
         try {
-            const response = await axios.get(`http://51.20.31.249/admins?email=${email}`);
+            const response = await axios.get(`https://13.48.59.223/admins?email=${email}`);
 
             if (response.data.length === 0) {
                 setTimeout(() => {

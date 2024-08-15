@@ -67,7 +67,7 @@ const Signup = () => {
     if (Object.keys(errors).length === 0) {
       try {
         setIsLoading(true); // Show loader
-        const response = await axios.post('http://51.20.31.249/users/', formData);
+        const response = await axios.post('https://13.48.59.223/users/', formData);
 
         toast.success('Registration successful!');
         nav('/login');

@@ -42,7 +42,7 @@ const ContactForm = () => {
   
     try {
       // Send form data to JSON server
-      await axios.post('http://51.20.31.249/contactus/', formData);
+      await axios.post('https://13.48.59.223/contactus/', formData);
   
       // Notify user of success
       setTimeout(() => {

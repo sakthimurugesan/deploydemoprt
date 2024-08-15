@@ -13,7 +13,7 @@ function Home() {
 
   useEffect(() => {
     // Fetch all events
-    axios.get('http://51.20.31.249/events/')
+    axios.get('https://13.48.59.223/events/')
       .then(response => {
         // Filter events where trend is true (1)
         const trendingEvents = response.data.filter(event => event.trend === 1);

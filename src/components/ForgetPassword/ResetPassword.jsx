@@ -29,7 +29,7 @@ export default function ResetPassword() {
     }
 
     try {
-      const response = await axios.post('http://51.20.31.249/password-reset-confirm/', {
+      const response = await axios.post('https://13.48.59.223/password-reset-confirm/', {
         token,
         new_password: new_password,
       });

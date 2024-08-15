@@ -18,7 +18,7 @@ const DashUserEdit = () => {
   useEffect(() => {
     const fetchEvent = async () => {
       try {
-        const response = await axios.get(`http://51.20.31.249/users/${id}`);
+        const response = await axios.get(`https://13.48.59.223/users/${id}`);
         setEvent(response.data);
       } catch (error) {
         console.error('Error fetching event data:', error);
@@ -46,7 +46,7 @@ const DashUserEdit = () => {
 
   const handleSave = async () => {
     try {
-      await axios.put(`http://51.20.31.249/users/${id}/`, event);
+      await axios.put(`https://13.48.59.223/users/${id}/`, event);
       setTimeout(() => {
         toast.success('User Edited successful!');
         
@@ -59,7 +59,7 @@ const DashUserEdit = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://51.20.31.249/users/${id}/`);
+      await axios.delete(`https://13.48.59.223/users/${id}/`);
       setTimeout(() => {
         toast.error('User Deleted successful!');
         

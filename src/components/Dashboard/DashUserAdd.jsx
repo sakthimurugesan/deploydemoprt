@@ -19,7 +19,7 @@ const DashUserAdd = () => {
     useEffect(() => {
       const fetchEvent = async () => {
         try {
-          const response = await axios.get(`http://51.20.31.249/users/${id}`);
+          const response = await axios.get(`https://13.48.59.223/users/${id}`);
           setEvent(response.data);
         } catch (error) {
           console.error('Error fetching event data:', error);
@@ -49,7 +49,7 @@ const DashUserAdd = () => {
       try {
         console.log(event)
 
-        await axios.post(`http://51.20.31.249/users/`, event);
+        await axios.post(`https://13.48.59.223/users/`, event);
         setTimeout(() => {
           toast.success("User Added Successfully")
         }, 500);
@@ -61,7 +61,7 @@ const DashUserAdd = () => {
   
     const handleDelete = async () => {
       try {
-        await axios.delete(`http://51.20.31.249/users/${id}`);
+        await axios.delete(`https://13.48.59.223/users/${id}`);
         navigate('/dashboard/users');
       } catch (error) {
         console.error('Error deleting users:', error);

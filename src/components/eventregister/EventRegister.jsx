@@ -73,7 +73,7 @@ const EventRegister = () => {
     console.log('Submitting data:', data);
   
     try {
-      const response = await axios.post('http://51.20.31.249/event_register/', data);
+      const response = await axios.post('https://13.48.59.223/event_register/', data);
       console.log('Response status:', response.status);
   
       if (response.status === 201) {

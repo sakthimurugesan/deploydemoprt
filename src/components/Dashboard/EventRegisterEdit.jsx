@@ -28,7 +28,7 @@ const EventRegisterEdit = () => {
   useEffect(() => {
     const fetchEvent = async () => {
       try {
-        const response = await axios.get(`http://51.20.31.249/event_register/${id}`);
+        const response = await axios.get(`https://13.48.59.223/event_register/${id}`);
         setEvent(response.data);
       } catch (error) {
         console.error('Error fetching event data:', error);
@@ -56,7 +56,7 @@ const EventRegisterEdit = () => {
 
   const handleSave = async () => {
     try {
-      await axios.put(`http://51.20.31.249/event_register/${id}/`, event);
+      await axios.put(`https://13.48.59.223/event_register/${id}/`, event);
       setTimeout(() => {
         toast.success('Registration Edited successful!');
         
@@ -69,7 +69,7 @@ const EventRegisterEdit = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://51.20.31.249/event_register/${id}`);
+      await axios.delete(`https://13.48.59.223/event_register/${id}`);
       setTimeout(() => {
         toast.error('Registeration Deleted successful!');
         

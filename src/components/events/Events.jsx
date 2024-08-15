@@ -13,7 +13,7 @@ const Event = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await axios.get('http://51.20.31.249/events');
+        const response = await axios.get('https://13.48.59.223/events');
         setEvents(response.data);
         setLoading(false);
       } catch (error) {

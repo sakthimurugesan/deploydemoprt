@@ -25,7 +25,7 @@ const EventDetails = () => {
     // Fetch event data based on ID
     const fetchEventData = async () => {
       try {
-        const response = await axios.get(`http://51.20.31.249/events/${id}`);
+        const response = await axios.get(`https://13.48.59.223/events/${id}`);
         setEventData(response.data);
       } catch (error) {
         console.error('Error fetching event data:', error);
@@ -38,7 +38,7 @@ const EventDetails = () => {
     // Fetch reviews for the event
     const fetchReviews = async () => {
       try {
-        const response = await axios.get(`http://51.20.31.249/review?eventId=${id}`);
+        const response = await axios.get(`https://13.48.59.223/review?eventId=${id}`);
         setReviews(response.data);
       } catch (error) {
         console.error('Error fetching reviews:', error);
@@ -54,7 +54,7 @@ const EventDetails = () => {
     console.log(rating)
     e.preventDefault();
     try {
-      const response = await axios.post('http://51.20.31.249/review/', {
+      const response = await axios.post('https://13.48.59.223/review/', {
         userId: parseInt(userId, 10),
         eventId: parseInt(id, 10),
         review: newReview,

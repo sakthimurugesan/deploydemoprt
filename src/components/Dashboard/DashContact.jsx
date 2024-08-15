@@ -11,7 +11,7 @@ const DashContact = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://51.20.31.249/contactus/');
+        const response = await axios.get('https://13.48.59.223/contactus/');
         setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);

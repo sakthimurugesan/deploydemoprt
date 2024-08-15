@@ -9,7 +9,7 @@ export default function ForgetPassword() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await axios.post('http://51.20.31.249/password-reset/', { email });
+    const response = await axios.post('https://13.48.59.223/password-reset/', { email });
     try {
       console.log(response.data);
       alert('Password reset link sent to your email.');
